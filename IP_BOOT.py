@@ -12,12 +12,11 @@ print("\     \___|    |   \/    |    \|     \  /        \ |        \  |    |")
 print(" \______  /____|_  /\____|__  /\___  / /_______  //_______  /  |____|")
 print("        \/       \/         \/     \/          \/         \/")
 print ("Crafset  : AZERT-HACK")
-print ("Team : CYBER ATTACK ")
 print ("Discord : https://discord.gg/GcQAWW4kUZ")
 print
 print("______________________________________")
 ip = input("Enter IP Adress: ")
-port = eval(input("Enter Port: "))
+port = int(input("Enter Port: "))
 sent = 0
 
 while True:
