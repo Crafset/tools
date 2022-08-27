@@ -1,8 +1,4 @@
 #!/usr/bin/python3
-from twilio.rest import client 
+import pywhatkit
 
-client=Client("","")
-
-client.messages.create(to =["+33"],
-    from_ = "+330760934411",
-    body = "hello"
+pywhatkit.sendwhatmsg("+33755616274","salut",2,46)
